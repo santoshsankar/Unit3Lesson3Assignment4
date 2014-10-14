@@ -1,9 +1,43 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="oez-hU-z1r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="QkS-0W-qAK">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
     </dependencies>
     <scenes>
+        <!--Tab Bar Controller-->
+        <scene sceneID="G8a-Ld-hXg">
+            <objects>
+                <tabBarController id="QkS-0W-qAK" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="yui-jo-YAp">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="oez-hU-z1r" kind="relationship" relationship="viewControllers" id="wd0-wS-DeH"/>
+                        <segue destination="u8f-E9-yWL" kind="relationship" relationship="viewControllers" id="fqO-dL-rCh"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gGJ-Nz-i5d" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="437" y="312"/>
+        </scene>
+        <!--Featured-->
+        <scene sceneID="Hu5-DR-6Nf">
+            <objects>
+                <viewController id="u8f-E9-yWL" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JbF-vz-o5X">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.7363080139" blue="0.106155441" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Featured" id="S0G-RY-anA"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yZk-LY-Epv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="433" y="1038"/>
+        </scene>
         <!--Contact Input-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
@@ -297,10 +331,11 @@
             </objects>
             <point key="canvasLocation" x="1967" y="306"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Contacts-->
         <scene sceneID="1RP-tY-tHV">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="oez-hU-z1r" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Contacts" id="YcR-wA-cli"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Hue-xd-pmx">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>

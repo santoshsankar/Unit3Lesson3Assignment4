@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>EC267F90-A4F4-40AF-BA5E-4C936A7513FC</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Contacts</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DB97154B8773495BECF1ADA34E417CECA985762C</key>
+		<string>https://github.com/santoshsankar/Unit3Lesson3Assignment4.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Contacts.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DB97154B8773495BECF1ADA34E417CECA985762C</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/santoshsankar/Unit3Lesson3Assignment4.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DB97154B8773495BECF1ADA34E417CECA985762C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DB97154B8773495BECF1ADA34E417CECA985762C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Contacts</string>
+		</dict>
+	</array>
+</dict>
+</plist>
