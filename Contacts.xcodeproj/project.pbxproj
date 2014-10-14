@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A2B03FC219E5EFFA00EDBC0E /* ContactDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B03FC119E5EFFA00EDBC0E /* ContactDetails.swift */; };
+		A2B03FC419E8A68300EDBC0E /* ContactInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B03FC319E8A68300EDBC0E /* ContactInput.swift */; };
 		A2BC106C19DAF5F000C739AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BC106B19DAF5F000C739AA /* AppDelegate.swift */; };
 		A2BC106E19DAF5F000C739AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BC106D19DAF5F000C739AA /* ViewController.swift */; };
 		A2BC107119DAF5F000C739AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2BC106F19DAF5F000C739AA /* Main.storyboard */; };
 		A2BC107319DAF5F000C739AA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2BC107219DAF5F000C739AA /* Images.xcassets */; };
 		A2BC107619DAF5F000C739AA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2BC107419DAF5F000C739AA /* LaunchScreen.xib */; };
 		A2BC108219DAF5F000C739AA /* ContactsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BC108119DAF5F000C739AA /* ContactsTests.swift */; };
+		A2BC108C19DB043700C739AA /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = A2BC108B19DB043700C739AA /* apple.png */; };
+		A2BC109619DB290B00C739AA /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BC109519DB290B00C739AA /* Contacts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A2B03FC119E5EFFA00EDBC0E /* ContactDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactDetails.swift; sourceTree = "<group>"; };
+		A2B03FC319E8A68300EDBC0E /* ContactInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactInput.swift; sourceTree = "<group>"; };
 		A2BC106619DAF5F000C739AA /* Contacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2BC106A19DAF5F000C739AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A2BC106B19DAF5F000C739AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +42,8 @@
 		A2BC107B19DAF5F000C739AA /* ContactsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2BC108019DAF5F000C739AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A2BC108119DAF5F000C739AA /* ContactsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTests.swift; sourceTree = "<group>"; };
+		A2BC108B19DB043700C739AA /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple.png; sourceTree = "<group>"; };
+		A2BC109519DB290B00C739AA /* Contacts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contacts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +88,9 @@
 				A2BC106B19DAF5F000C739AA /* AppDelegate.swift */,
 				A2BC106D19DAF5F000C739AA /* ViewController.swift */,
 				A2BC106F19DAF5F000C739AA /* Main.storyboard */,
+				A2BC109519DB290B00C739AA /* Contacts.swift */,
+				A2B03FC119E5EFFA00EDBC0E /* ContactDetails.swift */,
+				A2B03FC319E8A68300EDBC0E /* ContactInput.swift */,
 				A2BC107219DAF5F000C739AA /* Images.xcassets */,
 				A2BC107419DAF5F000C739AA /* LaunchScreen.xib */,
 				A2BC106919DAF5F000C739AA /* Supporting Files */,
@@ -90,6 +101,7 @@
 		A2BC106919DAF5F000C739AA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A2BC108B19DB043700C739AA /* apple.png */,
 				A2BC106A19DAF5F000C739AA /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -194,6 +206,7 @@
 			files = (
 				A2BC107119DAF5F000C739AA /* Main.storyboard in Resources */,
 				A2BC107619DAF5F000C739AA /* LaunchScreen.xib in Resources */,
+				A2BC108C19DB043700C739AA /* apple.png in Resources */,
 				A2BC107319DAF5F000C739AA /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -213,7 +226,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2BC106E19DAF5F000C739AA /* ViewController.swift in Sources */,
+				A2B03FC219E5EFFA00EDBC0E /* ContactDetails.swift in Sources */,
+				A2B03FC419E8A68300EDBC0E /* ContactInput.swift in Sources */,
 				A2BC106C19DAF5F000C739AA /* AppDelegate.swift in Sources */,
+				A2BC109619DB290B00C739AA /* Contacts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,9 +352,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Contacts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Contacts/Contacts-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -346,9 +365,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Contacts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Contacts/Contacts-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -405,6 +426,7 @@
 				A2BC108719DAF5F000C739AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A2BC108819DAF5F000C739AA /* Build configuration list for PBXNativeTarget "ContactsTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +435,7 @@
 				A2BC108A19DAF5F000C739AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
